@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hess.dev/sitemap.xml
+Sitemap: https://hess80.github.io/sitemap.xml
