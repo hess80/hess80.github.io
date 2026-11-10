@@ -1,70 +1,66 @@
-# hess80.github.io
-Professional portfolio for Joseph Hess, PhD, spanning computational science, scientific informatics, data science, and research technology.
+# Joseph Hess, PhD | Data Scientist
 
-## Local preview
+A scientific portfolio connecting chemistry, computational science, scientific informatics, and research technology. The organizing principle is to preserve the path from source data to scientific interpretation.
 
-Open `index.html` directly in a browser, or serve this directory with Python:
+## Public professional channels
+
+- Portfolio: https://hess80.github.io/
+- GitHub: https://github.com/hess80/
+- LinkedIn: https://www.linkedin.com/in/joseph-hess-phd/
+- ORCID: https://orcid.org/0000-0003-0458-3728
+
+GitHub is a location for public technical work and selected repositories. The portfolio does not infer original authorship from forks or pinned repositories or display activity metrics.
+
+## Preview and publishing
+
+Open `index.html` directly, or run:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Visit `http://localhost:8000`. No build, package installation, or framework is required. There is no existing automated test or lint setup.
+Visit `http://localhost:8000`. There is no build process, framework, package installation, or runtime dependency.
+
+GitHub Pages publishes **main** and **/ (root)** using **Deploy from a branch**. The root contains `index.html` and `.nojekyll`. Use the standard user-site hostname above; leave the Pages custom-domain field empty. No `CNAME` file is needed. Canonical, Open Graph, sitemap, robots, and Person structured-data URLs use the same portfolio URL.
+
+Normal assets and anchors use relative paths. The 404 page uses root-relative paths so nested missing URLs remain usable on the user site; preview it over HTTP rather than as a local file.
 
 ## Structure
 
-- `index.html`: single-page portfolio with anchored navigation.
-- `assets/css/styles.css`: responsive layout and capability color system.
-- `assets/js/main.js`: progressively enhanced mobile navigation; all content and links remain available without JavaScript.
-- `404.html`: GitHub Pages error page.
-- `CNAME`, `.nojekyll`, `robots.txt`, `sitemap.xml`: static hosting and discoverability.
-- `assets/images/` and `assets/documents/`: future verified assets.
+- `index.html`: identity, foundation, three capability pillars, five work areas, scholarship, about, and public contact links.
+- `assets/css/styles.css`: responsive HTML/CSS knowledge graph, blue/green/purple pillars, readable typography, and reduced-motion support.
+- `assets/js/main.js`: progressively enhanced navigation, with a 760px mobile breakpoint, Escape focus restoration, and content available without JavaScript.
+- `404.html`, `.nojekyll`, `robots.txt`, `sitemap.xml`: static hosting and discoverability.
+- `assets/documents/`, `assets/images/`: approved public assets only.
 
-## Publish on GitHub Pages
+## Factual sources and editorial boundaries
 
-1. In repository **Settings → Pages**, choose **Deploy from a branch**, select the intended publishing branch, and select **/ (root)**.
-2. The `CNAME` file specifies `hess80.github.io`. Configure the domain’s DNS using [GitHub’s custom-domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site). Verify domain ownership in GitHub settings and enable **Enforce HTTPS** after the certificate is available.
-3. Confirm the custom domain resolves and test navigation and a missing URL. Repository naming alone does not configure hosting or DNS.
+The supplied three-page CV and knowledge graph attached to the earlier portfolio pull request were reviewed. The CV is authoritative for degrees, dates, appointments, and scholarly citations. No newer certified CV, biosketch, or separate Career Path Summary was available for this revision. The user authorized proceeding with those attachments and the public-safe framing in the refinement request, with unresolved maturity claims explicitly qualified.
 
-Normal site assets and internal links use relative paths and support local-file browsing. The error page deliberately uses root-relative stylesheet and home links so nested missing URLs work on the GitHub Pages root/custom domain. To preview that page locally, use the HTTP server rather than a `file://` URL.
+The CV verifies Rutgers **B.S. Chemistry, Math Minor (2012-2015)** and Clemson **PhD Computational Biophysical Chemistry (2017-2023)**. It records Army National Guard service **2003-2011**, FDA Applied Regulatory Science ORISE work **2016-2017**, and ULRI employment **2022-present**. The site uses the requested concise title **Data Scientist**, not functional descriptions as formal appointments. The overlapping doctoral and employment dates are retained.
 
-## Source verification and public disclosure
+The graph supplies the relationship model: foundation -> capabilities -> work -> outputs. Its original domain names are reorganized into the requested **Scientific Computing**, **Scientific Informatics**, and **Research Technology** pillars. The CV takes precedence over abbreviated or inconsistent graph degree labels. The CV's SourceAware name and the user's explicit naming direction take precedence over the different environmental-project name in the graph; no equivalence between brands is inferred.
 
-The current revision uses the complete three-page CV PDF attached to [PR #1](https://github.com/hess80/hess80.github.io/pull/1#issuecomment-6769677235) as the factual authority, and the complete knowledge graph supplied in the PR discussion as the structural authority. Neither source document is embedded in the public site.
+Work summaries distinguish:
 
-Verified corrections and distinctions:
+- **Documented contributions:** CV-supported platform architecture, multi-source pipelines, dashboards, hazard workflows, APIs, and VOC model evaluation. These do not establish production deployment or public release.
+- **Unconfirmed method or delivery status:** SourceAware's individual QA/QC, geospatial, coverage-assessment and reporting capabilities; nested validation and permutation testing; knowledge-engineering extensions.
+- **Design directions:** longitudinal research integration and broader knowledge-engineering methods. No deployed participant system, collected data streams, or production AI workflow is claimed.
 
-- Rutgers: **B.S. Chemistry, Math Minor, 2012–2015**, rather than an unspecified B.S. with a biochemical-engineering focus.
-- Clemson: **PhD Computational Biophysical Chemistry, 2017–2023**. The degree is distinct from the **Data Scientist/Research/Teaching Assistant** appointment in the Department of Chemistry over the same period.
-- Military service: **New Jersey Army National Guard, 2003–2011**, Chemical Operations Specialist/NBC NCO; **Operation Iraqi Freedom II, 2005–2007**.
-- FDA: **Data Scientist/Researcher/ORISE Fellow, DARS, 2016–2017**, including pharmacophore/toxicophore screening, NLP, and (Q)SAR work. The graph also names a Center for Chemical Informatics; the CV identifies DARS, so no additional appointment is asserted.
-- Current employment: **Data Scientist/Researcher, Chemical Insights/CTHH, ULRI, 2022–Present**, transcribed from the CV. The formal hero title remains **Data Scientist**; the scope line is not a new job title. Overlapping appointment dates are preserved, not silently reordered.
-- Publication author lists, titles, journal details, dissertation, and presentation details are transcribed from the CV. No DOIs or publication URLs are inferred.
+All four publication citations and the selected conference presentation are transcribed from the CV. Doctoral research, presentations, and software contributions are categorized separately. DOI links were verified against public publisher records for all four articles; the 2016 article also links to its verified PubMed identifier. No identifiers are inferred. Software and analytical workflows are not represented as public releases.
 
-The graph supplies all three capability domains and their relationships: foundation → capabilities → representative project efforts → output pathways. Infrastructure now includes LRP, data management, knowledge architecture, and research portfolio. Engineering includes platforms/APIs, data services, research computing, and advanced analytics. React, PostgreSQL, CI/CD, and some infrastructure capabilities are documented by the graph rather than the CV and are not attributed to a specific employer or project.
+Excluded information includes unapproved career history, personal contact details, unit specifics, internal project addresses and architecture, organizational strategy, compound rankings, participant data, unpublished findings, manuscripts, unsupported leadership and impact claims, and unverified scholarly profiles. The source CV is not published because it requires public-disclosure review. No disabled CV button or placeholder contact channel is shown.
 
-Source discrepancy: the graph labels an environmental-intelligence effort **SourceWatch**, while the CV names **SourceAware.io**. The site uses the neutral description “Environmental decision support” and does not assume these names refer to the same system. The LRP is presented as a graph-supplied project area without inventing employment dates, study results, or a leadership role.
+## Review and maintenance
 
-Organizational project descriptions are intentionally high-level. Internal architecture, initiative/strategy details, unpublished findings, source code, participant records, personal telephone/locality details, and unsupported impact metrics are excluded. The CV-listed email is used as the contact address. NIH/NSF proposal support and open/FAIR data appear only as graph-supplied **output directions**, not funded awards or released datasets.
+Before changing formal facts, consult the current certified CV or biosketch. Use the graph for organization and an approved career summary for project context; do not promote proposal or experimental work to implemented capabilities. Require public-safe evidence before adding project links, releases, metrics, or deployment claims.
 
-The supplied PDF is readable and downloadable, but includes personal telephone/locality information and employer-specific strategy/architecture descriptions that require public-disclosure review. It has **not** been copied into this public repository; no fake or empty PDF has been created. The disabled CV button remains intentional.
+Remaining human review:
 
-## Remaining publication actions
+- Supply a newer certified CV/biosketch and Career Path Summary if the attached CV is no longer current.
+- Confirm individual project capabilities and classify them as built, experimental, planned, or proposed before replacing the current qualifications.
+- Supply approved public software/data artifacts if available.
+- Independently check LinkedIn, ORCID, and the live portfolio: automated HTTP verification was blocked by the session's network restrictions. GitHub returned HTTP 200.
+- Add a public CV only after disclosure and document-accessibility review.
 
-- Supply an approved public CV PDF with appropriate contact and organizational details removed. Add it at `assets/documents/joseph-hess-cv.pdf`, then replace the disabled control with a “View CV” link to that relative path. The nearby HTML comment explains the requirement.
-- Supply verified GitHub, LinkedIn, and ORCID profile URLs; those placeholders remain noninteractive.
-- Confirm the environmental-project naming discrepancy before using a project brand or URL.
-- Add approved public project artifacts and publication links when supplied; none are invented.
-- Update the canonical URL, sitemap, robots sitemap URL, and `CNAME` together if the domain changes.
-
-Open Graph and Person JSON-LD metadata are included. Structured data keeps the formal title, verified degree names, and institutions separate from the broader scope; it omits private contact details and unknown social-profile URLs.
-
-## Manual checks
-
-- Check desktop and narrow mobile widths, keyboard focus, skip link, and all navigation anchors.
-- On mobile, verify menu open/close, Escape returning focus, and navigation after resizing. Disable JavaScript and confirm navigation remains available.
-- Enable reduced motion and verify anchor scrolling is not animated.
-- Confirm unavailable CV/profile placeholders do not navigate to broken URLs.
-- Confirm all local assets load, and preview `404.html` via HTTP.
-
-The site uses system fonts and makes no third-party script, font, analytics, tracking, or form-service requests.
+Responsive checks cover 375, 768, 1024, 1440, and 1920px widths, 320px reflow, native 200% browser zoom, keyboard navigation, expanded disclosure content, reduced motion, and JavaScript-disabled navigation. Automated accessibility checks use WCAG 2.2 AA rules; they do not replace human accessibility review. Maintain meaningful profile-link text, visible focus, approximately 44px interactive targets, and non-color pillar labels. No third-party scripts, fonts, forms, analytics, or trackers are loaded.
