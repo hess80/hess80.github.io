@@ -1,4 +1,4 @@
-# josephhess.github.io
+# hess80.github.io
 Professional portfolio for Joseph Hess, PhD, spanning computational science, scientific informatics, data science, and research technology.
 
 ## Local preview
@@ -30,7 +30,7 @@ Normal site assets and internal links use relative paths and support local-file 
 
 ## Source verification and public disclosure
 
-The current revision uses the complete three-page CV PDF attached to [PR #1](https://github.com/hess80/josephhess.github.io/pull/1#issuecomment-6769677235) as the factual authority, and the complete knowledge graph supplied in the PR discussion as the structural authority. Neither source document is embedded in the public site.
+The current revision uses the complete three-page CV PDF attached to [PR #1](https://github.com/hess80/hess80.github.io/pull/1#issuecomment-6769677235) as the factual authority, and the complete knowledge graph supplied in the PR discussion as the structural authority. Neither source document is embedded in the public site.
 
 Verified corrections and distinctions:
 
