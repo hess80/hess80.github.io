@@ -35,19 +35,20 @@ Normal assets and anchors use relative paths. The 404 page uses root-relative pa
 
 ## Factual sources and editorial boundaries
 
-The supplied three-page CV and knowledge graph attached to the earlier portfolio pull request were reviewed. The CV is authoritative for degrees, dates, appointments, and scholarly citations. No newer certified CV, biosketch, or separate Career Path Summary was available for this revision. The user authorized proceeding with those attachments and the public-safe framing in the refinement request, with unresolved maturity claims explicitly qualified.
+The supplied three-page CV and knowledge graph from the earlier portfolio pull request, the **Career Path Summary 2025-2026**, and the certified **NIH Biographical Sketch Common Form and Supplement** subsequently attached to this pull request were reviewed. The current certified biosketch takes precedence for formal dates and appointments where the older CV differs; the career summary informs current professional scope and project context. The knowledge graph informs site organization. The career summary and project-specific biosketch also include unpublished and organization-specific detail; only measured, public-safe statements are represented here.
 
-The CV verifies Rutgers **B.S. Chemistry, Math Minor (2012-2015)** and Clemson **PhD Computational Biophysical Chemistry (2017-2023)**. It records Army National Guard service **2003-2011**, FDA Applied Regulatory Science ORISE work **2016-2017**, and ULRI employment **2022-present**. The site uses the requested concise title **Data Scientist**, not functional descriptions as formal appointments. The overlapping doctoral and employment dates are retained.
+The current certified biosketch verifies Rutgers **B.S. Chemistry (2013-2016)** and Clemson **PhD Computational Biophysical Chemistry (2017-2023)**; the CV additionally identifies a Mathematics Minor. It records Army training **2003-2011**, an FDA Data Scientist/ORISE appointment **2016-2017**, and UL Research Institutes Data Scientist employment **2023-present**. The site uses the requested concise formal title **Data Scientist** at ULRI and the requested FDA fellowship framing, not functional descriptions as new job titles. Doctoral research and ULRI employment overlap.
 
 The graph supplies the relationship model: foundation -> capabilities -> work -> outputs. Its original domain names are reorganized into the requested **Scientific Computing**, **Scientific Informatics**, and **Research Technology** pillars. The CV takes precedence over abbreviated or inconsistent graph degree labels. The CV's SourceAware name and the user's explicit naming direction take precedence over the different environmental-project name in the graph; no equivalence between brands is inferred.
 
-Work summaries distinguish:
+The career summary describes work across reusable software, data architecture, and workflow optimization. The certified biosketch provides additional evidence for SourceAware ingestion, QA/QC, geospatial and monitoring context, output reporting, reusable chemical/exposure analysis methods, source-linked research discovery, and the proposed-study data framework. Work summaries distinguish:
 
-- **Documented contributions:** CV-supported platform architecture, multi-source pipelines, dashboards, hazard workflows, APIs, and VOC model evaluation. These do not establish production deployment or public release.
-- **Unconfirmed method or delivery status:** SourceAware's individual QA/QC, geospatial, coverage-assessment and reporting capabilities; nested validation and permutation testing; knowledge-engineering extensions.
-- **Design directions:** longitudinal research integration and broader knowledge-engineering methods. No deployed participant system, collected data streams, or production AI workflow is claimed.
+- **Documented platform capabilities:** SourceAware architecture and development; automated multi-source pipelines, data quality checks, geospatial visualization, monitoring context, and analytical/reporting outputs. Extensions such as added sensor networks and active-event data are not presented as completed features. AI-assisted narratives are described as summaries of validated outputs, not independent evidence.
+- **Documented analytical methods:** Exposure-science workflows include feature stability, nested cross-validation, permutation testing, and null/feature benchmark comparisons. Chemical hazard reporting preserves traceability between identity, properties, classifications, and source evidence. No unpublished analysis or compound ranking is disclosed.
+- **Documented knowledge workflows:** API-based acquisition, normalization, de-duplication, reconciliation, source-linked organization, recommendation and tracking; RAG and task-specific language-model approaches are described as evaluated methods requiring human review.
+- **Proposed-study design:** The longitudinal data-management framework and platform design are documented, but proposed study collection and integration features are not represented as a deployed production system. No participant information, internal protocol, access diagram, or confidential deployment detail is included.
 
-All four publication citations and the selected conference presentation are transcribed from the CV. Doctoral research, presentations, and software contributions are categorized separately. DOI links were verified against public publisher records for all four articles; the 2016 article also links to its verified PubMed identifier. No identifiers are inferred. Software and analytical workflows are not represented as public releases.
+All four peer-reviewed publication citations, bibliographic identifiers, and the selected conference presentation are verified against the current certified biosketch and older CV. The 2023 doctoral dissertation, conference presentation, SourceAware scientific product, and analytical/software contributions are kept distinct. Verified DOI links accompany all four publications; PubMed or PubMed Central links use identifiers in the certified biosketch or CV. The SourceAware URL in the source materials is organization-specific and is intentionally not published. Software and analytical workflows are not represented as unrestricted public releases.
 
 Excluded information includes unapproved career history, personal contact details, unit specifics, internal project addresses and architecture, organizational strategy, compound rankings, participant data, unpublished findings, manuscripts, unsupported leadership and impact claims, and unverified scholarly profiles. The source CV is not published because it requires public-disclosure review. No disabled CV button or placeholder contact channel is shown.
 
@@ -57,8 +58,8 @@ Before changing formal facts, consult the current certified CV or biosketch. Use
 
 Remaining human review:
 
-- Supply a newer certified CV/biosketch and Career Path Summary if the attached CV is no longer current.
-- Confirm individual project capabilities and classify them as built, experimental, planned, or proposed before replacing the current qualifications.
+- Confirm project-by-project whether experimental and extensible SourceAware features have since become built, public capabilities.
+- Confirm what aspects of the longitudinal platform are implemented versus limited to proposed-study design before changing its status.
 - Supply approved public software/data artifacts if available.
 - Independently check LinkedIn, ORCID, and the live portfolio: automated HTTP verification was blocked by the session's network restrictions. GitHub returned HTTP 200.
 - Add a public CV only after disclosure and document-accessibility review.
