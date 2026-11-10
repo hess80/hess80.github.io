@@ -23,7 +23,7 @@ Visit `http://localhost:8000`. No build, package installation, or framework is r
 ## Publish on GitHub Pages
 
 1. In repository **Settings → Pages**, choose **Deploy from a branch**, select the intended publishing branch, and select **/ (root)**.
-2. The `CNAME` file specifies `josephhess.dev`. Configure the domain’s DNS using [GitHub’s custom-domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site). Verify domain ownership in GitHub settings and enable **Enforce HTTPS** after the certificate is available.
+2. The `CNAME` file specifies `hess.dev`. Configure the domain’s DNS using [GitHub’s custom-domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site). Verify domain ownership in GitHub settings and enable **Enforce HTTPS** after the certificate is available.
 3. Confirm the custom domain resolves and test navigation and a missing URL. Repository naming alone does not configure hosting or DNS.
 
 Normal site assets and internal links use relative paths and support local-file browsing. The error page deliberately uses root-relative stylesheet and home links so nested missing URLs work on the GitHub Pages root/custom domain. To preview that page locally, use the HTTP server rather than a `file://` URL.
