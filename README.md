@@ -21,7 +21,7 @@ python3 -m http.server 8000
 
 Visit `http://localhost:8000`. There is no build process, framework, package installation, or runtime dependency.
 
-GitHub Pages publishes **main** and **/ (root)** using **Deploy from a branch**. The root contains `index.html` and `.nojekyll`. Use the standard user-site hostname above; leave the Pages custom-domain field empty. No `CNAME` file is needed. Canonical, Open Graph, sitemap, robots, and Person structured-data URLs use the same portfolio URL.
+**Deployment is exclusively through GitHub Pages.** In repository **Settings → Pages**, select **Deploy from a branch**, `main`, and `/ (root)`. The root contains `index.html` and `.nojekyll`. Use the standard user-site hostname above; leave the Pages custom-domain field empty. No `CNAME` file, Cloudflare Workers project, or Cloudflare build integration is needed for this static site. Canonical, Open Graph, sitemap, robots, and Person structured-data URLs use the same portfolio URL.
 
 Normal assets and anchors use relative paths. The 404 page uses root-relative paths so nested missing URLs remain usable on the user site; preview it over HTTP rather than as a local file.
 
