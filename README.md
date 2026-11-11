@@ -1,4 +1,4 @@
-# Joseph Hess, PhD | Data Scientist
+# Joseph Hess, PhD | Scientific Research Architect
 
 A scientific portfolio connecting chemistry, computational science, scientific informatics, and research technology. The organizing principle is to preserve the path from source data to scientific interpretation.
 
