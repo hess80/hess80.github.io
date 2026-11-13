@@ -147,6 +147,12 @@ details p { margin: .35rem 0 0; }
 .footer-inner .profile-links { margin: 0; }
 .footer-inner > a { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; }
 .error-page { min-height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; max-width: 750px; padding-block: 4rem; }
+.case-study h1 { font-size: 2rem; letter-spacing: 0; }
+.architecture-flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; padding: 0 0 0 1.5rem; margin-block: 2rem; }
+.architecture-flow li { min-width: 0; margin: 0; padding: 1rem .5rem; border-top: 2px solid var(--green); overflow-wrap: anywhere; }
+.architecture-flow strong, .architecture-flow span { display: block; }
+.architecture-flow strong { color: var(--navy); margin-bottom: .5rem; }
+.architecture-flow span { font-size: .9375rem; }
 @media (max-width: 1199px) {
   .header-inner { gap: 1rem; }
   nav { gap: 1rem; }
@@ -185,6 +191,7 @@ details p { margin: .35rem 0 0; }
   .foundation-card::before { content: ""; position: absolute; top: 2rem; right: 100%; width: 1.25rem; border-top: 1px solid var(--navy); }
   .institution { min-height: 0; }
   .work-grid, .research-grid, .about-layout, .contact-layout { grid-template-columns: minmax(0, 1fr); }
+  .architecture-flow { grid-template-columns: minmax(0, 1fr); gap: .5rem; }
   .work-card, .research-card, .contact-card { padding: 1.25rem; }
   .about-layout, .contact-layout { gap: 1.5rem; }
 }

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ChemExplorer: a standalone public-data demonstration connecting PubChem acquisition, molecular analysis, validation, and traceable reporting.">
+  <title>ChemExplorer | Joseph Hess, PhD</title>
+  <link rel="canonical" href="https://hess80.github.io/demos/chemexplorer/">
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+<body class="case-study">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="../../index.html" aria-label="Joseph Hess, home">JH<span class="wordmark-dot">.</span></a>
+      <nav aria-label="Case study navigation">
+        <a href="../../index.html#work">Portfolio</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#validation">Validation</a>
+        <a href="#availability">Availability</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="section container" aria-labelledby="project-title">
+      <div class="section-heading">
+        <p class="eyebrow">Scientific Informatics + Computational Science + Research Technology</p>
+        <h1 id="project-title">ChemExplorer</h1>
+        <p class="formal-title">PubChem Chemical Space Explorer</p>
+        <p>Compare sampled chemical collections while keeping source evidence, molecular calculations, and model evaluation distinct.</p>
+      </div>
+      <p><strong>Standalone public-data demonstration.</strong> The application runs locally in Python and Streamlit. This page is a technical case study, not the running application; no live computation or chemical dataset is hosted here.</p>
+      <h2>The problem</h2>
+      <p>Chemical collections have different definitions, sizes, overlap, and missing information. A useful comparison needs to preserve those differences rather than reduce them to an unexplained ranking.</p>
+      <h2>The implementation</h2>
+      <p>Joseph's demo project connects public API acquisition, reproducible sampling, molecular analysis, and structured reporting in a separate application. It demonstrates how scientific data become inspectable analytical outputs without using original research datasets or depending on the research systems described elsewhere in this portfolio.</p>
+      <ul>
+        <li><strong>Acquire and normalize:</strong> discover collections through PubChem classification, structure searches, and NCBI Entrez queries; retain definitions, candidate identifiers, exclusions, and retrieval status.</li>
+        <li><strong>Compare molecular representations:</strong> use RDKit descriptors, Morgan fingerprints, scaffolds, and structural similarity to describe the sampled collections.</li>
+        <li><strong>Evaluate separately:</strong> test eligible, independently defined group labels with nested cross-validation and baselines; report deposited GHS evidence as a separate descriptive stream.</li>
+        <li><strong>Preserve traceability:</strong> export CSV tables, methods, deterministic result summaries, and versioned run manifests with run identifiers and CID-manifest checksums.</li>
+      </ul>
+    </section>
+    <section class="section section-tinted" id="architecture" aria-labelledby="architecture-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="architecture-title">From source to report</h2>
+          <p>The application boundary stays separate from this static portfolio.</p>
+        </div>
+        <ol class="architecture-flow" aria-label="Application data flow">
+          <li><strong>Public sources</strong><span>PubChem PUG REST / PUG View and NCBI Entrez</span></li>
+          <li><strong>Python workflow</strong><span>Collection definitions, seeded sampling, identity checks, and provenance</span></li>
+          <li><strong>Analysis modules</strong><span>RDKit features, similarity, eligible group-label ML, and separate GHS coverage</span></li>
+          <li><strong>Streamlit and exports</strong><span>Interactive inspection, CSV tables, methods, and a saved run manifest</span></li>
+        </ol>
+        <details>
+          <summary>Technology choices and boundaries</summary>
+          <p>Streamlit provides the Python application interface; RDKit handles molecular representations; scikit-learn supports model evaluation. A local SQLite cache reduces repeat acquisition. The portfolio remains semantic HTML and CSS on GitHub Pages, which cannot execute the application. A shared live deployment would need coordinated request limits and a reviewed cache/storage policy, not only per-process throttling.</p>
+        </details>
+      </div>
+    </section>
+    <section class="section container" id="validation" aria-labelledby="validation-title">
+      <div class="section-heading">
+        <h2 id="validation-title">Validation and scientific limits</h2>
+        <p>These are implementation practices described in the local project documentation, not independently verified performance claims.</p>
+      </div>
+      <ul>
+        <li>Fixture-based pytest checks avoid live PubChem requests. No test-pass count or predictive-performance result is claimed here.</li>
+        <li>Saved candidate identifiers, sampling settings, versions, and exclusions support reproducibility; a new upstream query is not guaranteed to reproduce an earlier collection.</li>
+        <li>Structure-defined labels are blocked from supervised distinguishability analysis. Learned preprocessing and tuning remain inside training folds, with identical structures grouped to reduce leakage.</li>
+        <li>Deterministic, versioned templates summarize stored results; summaries are not language-model-generated evidence.</li>
+      </ul>
+      <p><strong>Interpretation boundary:</strong> sampled collections are not population-representative by default and do not establish real-world mixture co-occurrence. Group-label classification does not predict hazard, toxicity, exposure, or risk. Missing deposited GHS evidence does not mean a chemical is safe. No composite hazard score is calculated.</p>
+    </section>
+    <section class="section section-tinted" id="availability" aria-labelledby="availability-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="availability-title">Demonstration availability</h2>
+          <p>No public application URL has been verified. The supplied Nexus repository could not be accessed anonymously during integration, so a public source-code link is not advertised here.</p>
+        </div>
+        <p>The next publishing milestone is a reviewed, precomputed report from approved public inputs. Visitors could inspect and filter its stored results on Pages without executing Python. Live acquisition, model training, and arbitrary manifest uploads would remain outside that static demonstration.</p>
+        <details>
+          <summary>Proposed private-to-public release boundary</summary>
+          <p>A GitHub Actions build can execute approved code in the source repository and produce an explicitly allowlisted HTML/CSS/JavaScript report bundle. Only reviewed output would enter the public Pages deployment. Source code, caches, logs, credentials, original research data, and unapproved derived artifacts must stay out of that bundle. This publication pipeline has not been implemented; a build does not automatically sanitize its inputs or outputs.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>Joseph Hess, PhD <span>Scientific Research Architect</span></p><a href="../../index.html#demos">Back to technical evidence</a></div></footer>
+</body>
+</html>
