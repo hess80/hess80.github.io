@@ -1,6 +1,6 @@
-# Joseph Hess, PhD | Scientific Research Architect
+# Joseph Hess, PhD | Scientific Systems Researcher
 
-A scientific portfolio connecting chemistry, computational science, scientific informatics, and research technology. Scientific Research Architect is the professional identity; Data Scientist remains the formal UL Research Institutes employment title. Scientific computing describes a supporting technical capability, while computational science is the broader scientific domain.
+A scientific portfolio connecting chemistry, computational science, scientific informatics, and research technology. Scientific Systems Researcher is the professional identity; Data Scientist remains the formal UL Research Institutes employment title. Scientific computing describes a supporting technical capability, while computational science is the broader scientific domain.
 
 ## Public professional channels
 
